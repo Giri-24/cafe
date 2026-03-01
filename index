@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Roast & Co.</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <div class="logo">Restaurant Cafe</div>
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#menu">Menu</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</nav>
+
+<section class="hero">
+  <div>
+    <h1>Serious Coffee.<br>Zero Pretence.</h1>
+    <p>Roasted in-house. Built for thinkers and builders.</p>
+    <a href="#menu" class="btn">Explore Menu</a>
+  </div>
+</section>
+
+<section class="section">
+  <h2>What We’re Known For</h2>
+  <div class="featured-grid">
+    <div class="featured-card">
+      <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93" alt="Espresso">
+      <h3>Precision Espresso</h3>
+    </div>
+    <div class="featured-card">
+      <img src="https://images.unsplash.com/photo-1525351484163-7529414344d8" alt="Brunch">
+      <h3>Brunch Classics</h3>
+    </div>
+    <div class="featured-card">
+      <img src="https://images.unsplash.com/photo-1505252585461-04db1eb84625" alt="Desserts">
+      <h3>House Desserts</h3>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="menu">
+  <h2>Menu</h2>
+
+  <div class="menu-grid">
+
+    <div class="menu-item">
+      <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93" alt="Espresso">
+      <div>
+        <div class="menu-name-price">
+          <span>House Espresso</span>
+          <span>₹180</span>
+        </div>
+        <p>Balanced, chocolate-forward roast.</p>
+      </div>
+    </div>
+
+    <div class="menu-item">
+      <img src="https://images.unsplash.com/photo-1521305916504-4a1121188589" alt="Cappuccino">
+      <div>
+        <div class="menu-name-price">
+          <span>Cappuccino</span>
+          <span>₹220</span>
+        </div>
+        <p>Creamy milk with bold espresso.</p>
+      </div>
+    </div>
+
+    <div class="menu-item">
+      <img src="https://images.unsplash.com/photo-1525351484163-7529414344d8" alt="Avocado Toast">
+      <div>
+        <div class="menu-name-price">
+          <span>Avocado Toast</span>
+          <span>₹340</span>
+        </div>
+        <p>Sourdough, olive oil, chilli flakes.</p>
+      </div>
+    </div>
+
+    <div class="menu-item">
+      <img src="https://images.unsplash.com/photo-1505252585461-04db1eb84625" alt="Lemon Cake">
+      <div>
+        <div class="menu-name-price">
+          <span>Lemon Cake</span>
+          <span>₹260</span>
+        </div>
+        <p>Moist, fragrant, afternoon favourite.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  © 2026 Restaurant Cafe. All Rights Reserved.
+</footer>
+
+<!-- External JS -->
+<script src="script.js"></script>
+
+</body>
+</html>
